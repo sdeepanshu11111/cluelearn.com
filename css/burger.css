@@ -1,0 +1,253 @@
+@media screen and (max-width: 500px) {
+    .nav {
+        padding-left: 1rem;
+        height: auto;
+        position: fixed;
+        top: 0;
+    }
+    nav {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 4rem;
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 120px;
+    }
+    .hleft {
+        width: auto;
+        animation: slideInFromTop 1.2s ease-in;
+    }
+    .hleft h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .logo img {
+        height: 55%;
+        display: block;
+    }
+    .hleft p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
+    .hleft button {
+        margin: auto;
+    }
+    .hright {
+        width: auto;
+        padding: 0;
+        justify-content: center;
+        animation: slideInFromBottom 1.2s ease-in;
+    }
+    .hright img {
+        width: 100%;
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button {
+        position: relative;
+        width: 140px;
+        height: 60px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4rem;
+        outline: none;
+        font-weight: 500;
+        color: white;
+        border: none;
+        transition: 0.8s;
+        cursor: pointer;
+        font-size: 0.52rem;
+        background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    }
+    .hleft button h1 {
+        position: absolute;
+        font-size: 1rem;
+        top: 50%;
+        color: white;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .whydiv1 {
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .whydiv2 {
+        width: auto;
+    }
+    .whydiv1-2 {
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .whydiv3 img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+    }
+    .whydiv3 img[src="res/whywe2.png"] {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+    }
+    .whydiv2 h3 {
+        margin-top: 1rem;
+    }
+    .card1 {
+        width: auto;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-right: 0;
+    }
+    .cards h1 {
+        width: 80%;
+        margin: auto;
+    }
+    .ppp {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .pLearn h1 {
+        width: 80%;
+        margin: auto;
+    }
+    .pp {
+        width: 90%;
+        margin: auto;
+    }
+    .saydiv {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .card2 {
+        width: auto;
+    }
+    /* Parents saying */
+    .three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .m {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .sm {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .sm2 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .mb {
+        margin-bottom: 0;
+    }
+    .slide {
+        width: 94%;
+    }
+    .container {
+        width: 100%;
+    }
+    .Appheading {
+        text-align: center;
+    }
+    .pLearn img {
+        display: block;
+        margin: auto;
+        width: 330px;
+        padding-top: 3rem;
+    }
+    /* Parents saying */
+    .parentswrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .pm {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .saydiv {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    /* footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .fdiv1 {
+        /* width: 30%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .fdiv1 img {
+        padding-top: 1rem;
+    }
+    .fdiv2 {
+        margin-top: 3rem;
+        padding-right: 0;
+    }
+    .fdiv3 {
+        /* width: 50%; */
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .fdiv3 h2 {
+        margin-bottom: 2rem;
+    }
+    .fdiv4 {
+        /* width: 60%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cardsFirstRow {
+        flex-direction: column;
+    }
+    .cardsSecondRow {
+        flex-direction: column;
+    }
+    .burger {
+        padding-right: 3rem;
+    }
+    .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+    }
+}

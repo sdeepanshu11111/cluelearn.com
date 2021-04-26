@@ -1,0 +1,64 @@
+.container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.appscr h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #F2709C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .slide {
+    width: 210px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all ease 0.7s;
+    padding-bottom: 3rem;
+}
+
+.Appheading {
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.78);
+    text-align: center; */
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 65%);
+    text-align: left;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.slide img {
+    display: block;
+    max-height: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+
+.slide:hover {
+    transform-style: preserve-3d;
+    transform: scale(1.07);
+    transition: all ease 0.7s;
+}
+
+.Screens {
+    background-color: #F2F9FF;
+}

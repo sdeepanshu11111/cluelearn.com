@@ -1,0 +1,88 @@
+.cards {
+    background-color: #f3f3f3;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4rem;
+}
+
+.cards h1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #F2709C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardsFirstRow {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsSecondRow {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.45);
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.45);
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.cardsSecondRow {
+    display: flex;
+    justify-content: center;
+}
+
+.cards img {
+    margin-top: 2.5rem;
+    display: block;
+    width: 20%;
+}
+
+.cards h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #F2709C;
+    text-align: left;
+}
+
+.cards p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 26px;
+}

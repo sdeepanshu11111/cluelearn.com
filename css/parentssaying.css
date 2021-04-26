@@ -1,0 +1,68 @@
+.parentsSaying {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parentsSaying h1 {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.78);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.parentswrap {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F2709C;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.saydiv {
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.parentsSaying p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 20px;
+}
+
+.parentsSaying h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pm {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.circle h3 {
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}

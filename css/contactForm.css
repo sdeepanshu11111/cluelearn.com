@@ -1,0 +1,111 @@
+.contact-card {
+ height:550px;
+  width: 50%;
+  background: linear-gradient(
+    90deg
+    , rgb(242, 112, 156) 30.42%, rgb(255, 148, 114) 117.42%);;
+  margin: auto;
+  margin-bottom: 3rem;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+
+.contact-card img {
+  display: block;
+  margin: auto;
+  padding-top: 4rem;
+  height: 200px;
+}
+
+.contact-card h2 {
+ 
+  font-size: 2.3rem;
+  width: 60%;
+  margin: auto;
+ 
+  color: white;
+  font-family: 'Lato', sans-serif;
+    display: flex;
+    text-align: center !important;
+    padding-top: 2rem;
+}
+
+.contact-card h1 {
+ 
+  font-size: 2.3rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+    display: flex;
+    text-align: center !important;
+}
+
+.contactInput {
+  padding-top: 2rem;
+}
+
+.contactInput input {
+  display: block;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  outline-color: rgb(242, 112, 156);
+  border: none;
+  color: #656565;
+}
+
+/* .contactTextarea textarea{
+
+  display: block;
+  width: 65%;
+  margin: auto;
+} */
+
+.contactTextarea {
+  width: 65%;
+  margin: auto;
+}
+.contactTextarea textarea {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+  outline-color: rgb(242, 112, 156);
+  border: none;
+  color: #656565;
+}
+
+
+.contactButton {
+  padding-bottom: 1rem;
+}
+
+.contactButton button {
+  display: block;
+  margin: auto;
+font-size: 1.3rem;
+padding: 0.8rem 2rem;
+box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 4rem;
+    outline: none;
+    font-weight: 500;
+    color: #656565;
+    border: none;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 1rem;
+    border-color: #F2709C;
+    border: 2px solid #F2709c;
+
+}

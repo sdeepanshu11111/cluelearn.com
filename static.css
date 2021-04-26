@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+/* nav */
+
+
+nav {
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+   
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:2rem;
+    padding-right: 2rem;
+    align-items: center;
+  
+    background: linear-gradient(
+90deg
+, #F2709C 30.42%, #FF9472 117.42%);
+    height: 60px;
+    position: fixed;
+
+    z-index: 1;
+   
+}
+
+
+
+.logo {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo a img {
+  height: 95%;
+  display: block;
+  width: 133px;
+}
+/* Main */
+
+main {
+  width: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding-top: 60px;
+
+}
+
+.cat {
+  width: 250px;
+  margin: 1rem;
+  height: 140px;
+  position: relative;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+
+
+.cat:hover .bottomLine {
+  background: linear-gradient( 
+90deg
+ , #F2709C 30.42%, #FF9472 117.42%);
+  height: 8px;
+  transition: 5s;
+}
+
+
+
+
+
+.cat:hover h1 {
+  color: #F2709C;
+
+}
+
+.cat:hover img {
+  filter: opacity(20%) blur(0);
+}
+
+
+
+
+.cat img {
+  height: 132px;
+  width: 100%;
+  filter: opacity(50%) blur(1px);
+  transition: 0.5s;
+
+}
+
+.cat h1 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-27%);
+  color: white;
+  font-size: 1.7rem;
+  z-index: 1111;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+
+
+
+
+main {
+   font-family: 'Lato', sans-serif;
+}
+
+.main {
+  font-family: 'Lato', sans-serif;
+ 
+  padding-top: 80px;
+  padding-bottom: 2rem;
+
+
+}
+
+h1 {
+  font-weight: 400;
+  color: #656565;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: #656565;
+  line-height: 28px;
+}
+
+.linkDiv {
+  
+    background-color: #FFFFFF;
+     display: flex;
+     flex-direction: column;
+    
+     align-items: flex-start;
+     /* height: 200px; */
+     margin-top: 3rem;
+  
+ 
+     filter: drop-shadow(2px 4px 6px #656565);
+     transition: 0.5s;
+     margin-bottom: 2rem;
+     min-height: 450px;
+  
+}
+
+.linkDiv:hover {
+  filter: drop-shadow(2px 4px 6px #656565);
+
+}
+
+.linkDiv img {
+  height: 140px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.linkDiv:hover {
+  transform: translateY(-10px);
+}
+
+.linkDiv:hover h1 {
+  visibility: visible;
+  
+}
+
+
+
+.linkDiv p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.link a {
+  margin-right: 2rem;
+  display: block;
+  width: 300px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  z-index: 0;
+  
+  width: 260px !important;
+  
+}
+
+
+
+.open {
+  width: 100%;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+}
+
+.open h1 {
+  color: #656565;
+  font-size: 1.233rem;
+  visibility: hidden;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  width: 100% !important;
+  font-size: 1.2rem !important;
+  text-align: center;
+  margin: auto !important;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+body{
+  background-color: #F3DFBF;
+
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 0.8rem !important;
+  text-align: center;
+  color: #656565;
+  width: 80%;
+  margin: auto;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+  color: #F2709C;
+
+}
+
+.titleText {
+  font-size: 1.4rem !important;
+  color: #2e2e2e;
+  width: 80%;
+  margin: auto;
+  letter-spacing: 2px;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-weight: 500;
+}
+
+
+
+.suitableFor {
+  font-size: 1rem !important;
+  color: #F2709C;
+  width: 80%;
+  margin: auto;
+  padding-top: 0.3rem;
+}
+.discription {
+
+  font-size: 0.8rem !important;
+  color: #656565;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: justify !important;
+}
+
+main > div {
+  filter: opacity(20%);
+}

@@ -1,0 +1,77 @@
+.parentsPoint {
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+}
+
+.parentsPoint h1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    margin: auto
+}
+
+.box img {
+    height: 65%;
+    display: block;
+    margin: auto;
+}
+
+.parentsPoint p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+    line-height: 20px;
+}
+
+.three1 {
+    width: 320px;
+}
+
+.m {
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.sm {
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+
+.sm2 {
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,89 @@
+.whyWeExist {
+    background-color: white;
+    box-shadow: 0px -4px -4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whyWeExist h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #F2709C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 3rem 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.whyWeExist h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 4rem;
+}
+
+.whydiv1 {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whydiv2 {
+    width: 50%;
+}
+
+.whydiv3 {
+    transition: 1.2s;
+}
+
+.whydiv3:hover {
+    transform: translateY(-60px);
+}
+
+.whydiv3 img {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.whydiv3 img[src="res/whywe2.png"] {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+
+.whydiv2 h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+color: #F2709C;
+    text-align: left;
+}
+
+.whydiv2 p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.whydiv1-2 {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.shape {
+    width: 4rem;
+    height: 4px;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

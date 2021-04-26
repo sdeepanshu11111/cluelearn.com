@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 88%;
+}
+
+body {
+    text-transform: none;
+}
+
+.overlay {
+    display: none;
+    z-index: 599;
+   
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    background-color: #de6262;
+    opacity: 0.4;
+    left: 0px;
+    top: 70px;
+  
+}
+
+.nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 11111111;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4rem;
+    align-items: center;
+    background-color: black;
+    background: #de6262;
+    /* fallback for old browsers */
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    height: 70px;
+    position: fixed;
+    /* margin-bottom: 12vh; */
+}
+
+.logo {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo a img {
+    height: 95%;
+    display: block;
+}
+
+nav {
+    width: 65%;
+    padding-left: 4rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 2rem;
+    text-align: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    background-image: url('/res/file.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 280px */
+}
+
+.whyWeExist h1 {
+    width: 80%;
+    margin: auto;
+    color: #F2709C;
+}
+
+.hleft {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.hRight {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-right: 3rem;
+    animation: slideInFromRight 1s ease-in;
+}
+
+.hright img {
+    width: 100%;
+    display: block;
+}
+
+.hleft > h1 {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #F2709C;
+  margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.hleft > h2 {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.6);
+  
+    padding-bottom: 2.2rem;
+}
+
+.hleft p {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    line-height: 35px;
+    display: none;
+}
+
+.hleft {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hleft .button {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4rem;
+    outline: none;
+    font-weight: 500;
+    color: white;
+    border: none;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 1rem;
+    border-color: #F2709C;
+    border: 2px solid #F2709c;
+   
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.button .h {
+    position: absolute;
+    font-size: 1.1rem;
+    top: 50%;
+    color: rgb(242, 112, 156);
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+
+
+
+.mainImage {
+    margin: auto;
+
+   
+  height: 80vh;
+  width: 57vh;
+  background: linear-gradient(
+    -90deg
+    , rgb(242, 112, 156) 30.42%, rgb(255, 148, 114) 117.42%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-bottom: 5rem;
+    background-size: cover;
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    position: relative;
+    border-radius: 1rem;
+    
+}
+
+.mainImage iframe {
+    height: 94%;
+    width: 91%;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+
+}
+
+.mainImage img {
+    height: 7%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.mainImage-res {
+    display: none;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
