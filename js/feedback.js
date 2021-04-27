@@ -55,7 +55,7 @@ function deep() {
                 console.log(contactCard);
       
                 contactCard.innerHTML = "";
-                contactCard.classList.add("height")
+                contactCard.classList.add("height");
       
                 contactCard.innerHTML = html;
               } else {
