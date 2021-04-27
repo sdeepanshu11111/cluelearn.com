@@ -113,7 +113,41 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 
 
 
+@media screen and (max-width: 500px) {
 
+  .contact-card {
+    height:550px;
+     width: 90%;
+     background: linear-gradient(
+       90deg
+       , rgb(242, 112, 156) 30.42%, rgb(255, 148, 114) 117.42%);;
+     margin: auto;
+     margin-bottom: 3rem;
+     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+   }
+
+
+
+   .contactButton button {
+    display: block;
+    margin: auto;
+  font-size: 1.3rem;
+  padding: 0.8rem 2rem;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+      border-radius: 4rem;
+      outline: none;
+      font-weight: 500;
+      color: white;
+      border: none;
+      transition: 0.8s;
+      cursor: pointer;
+      font-size: 1rem;
+      border-color: #F2709C;
+      border: 2px solid #F2709c;
+  
+  }
+  
+}
 
 
 
@@ -122,4 +156,3 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 
 
   
-}
