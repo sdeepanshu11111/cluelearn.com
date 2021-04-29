@@ -29,6 +29,37 @@ body {
   
 }
 
+
+
+.button3 {
+    display: block;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 4rem;
+    outline: none;
+    font-weight: 500;
+
+    
+    background: white !important;
+    color: #656565 !important;
+    z-index: 11119 !important;
+}
+
+
+.button3 h2 {
+    font-size: 1rem;
+    position: absolute;
+    font-size: 1rem;
+    top: 50%;
+    font-weight: 700;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #656565;
+}
+
 .nav {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 11111111;
@@ -69,11 +100,17 @@ nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul li {
     margin-right: 2rem;
     text-align: center;
+}
+
+
+nav ul > :last-child {
+    margin-right: 0;
 }
 
 nav ul a {
@@ -130,7 +167,7 @@ nav ul a {
     font-style: normal;
     font-weight: 400;
     font-size: 3rem;
-    color: #F2709C;
+    
   margin-top: 2rem;
     padding-bottom: 2rem;
     
@@ -164,10 +201,43 @@ nav ul a {
     justify-content: center;
 }
 
+
+
+.explore {
+    margin-top: 1rem;
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+   
+}
+
+
+.explore > :first-child {
+    margin-right: 2rem;
+}
+
+
+.explore > :last-child {
+
+    margin-right: 2rem;
+    background: white !important;
+    color: #656565 !important;
+
+}
+
+
+.explore > :last-child h1{
+
+    margin-right: 2rem;
+    background: white !important;
+    color: #656565 !important;
+
+}
+
 .hleft .button {
     position: relative;
-    width: 220px;
-    height: 60px;
+    width: 180px;
+    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4rem;
     outline: none;
@@ -179,6 +249,11 @@ nav ul a {
     font-size: 1rem;
     border-color: #F2709C;
     border: 2px solid #F2709c;
+
+    color: white;
+    background: linear-gradient(
+90deg
+, #F2709C 30.42%, #FF9472 117.42%);
    
 }
 
@@ -188,9 +263,9 @@ nav ul a {
 
 .button .h {
     position: absolute;
-    font-size: 1.1rem;
+    font-size: 1rem;
     top: 50%;
-    color: rgb(242, 112, 156);
+    color: white;
     text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);

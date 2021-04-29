@@ -392,5 +392,18 @@
         flex-direction: column;
     }
 
+
+
+
+    .explore {
+        margin-top: 0.6rem;
+        display: flex;
+        width: 400px;
+        justify-content: flex-start;
+        margin: auto;
+       
+    }
+    
+
     
 }
