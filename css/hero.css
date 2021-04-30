@@ -44,7 +44,7 @@ body {
     
     background: white !important;
     color: #656565 !important;
-    z-index: 11119 !important;
+   
 }
 
 
@@ -330,3 +330,30 @@ nav ul a {
 }
 
 
+.signIn {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F2709C;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signCard input {
+  display: block;
+  margin: 2rem;
+}
+
+.display {
+    display: block;
+}
+
+.none {
+    display: none;
+}
