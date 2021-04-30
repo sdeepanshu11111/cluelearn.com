@@ -43,12 +43,13 @@ align-items: center;
   height: 70%;
   width: 70%;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  overflow: hidden;
 }
 
 .image {
@@ -68,7 +69,8 @@ align-items: center;
 
 
 .main img {
-  height: 50%;
+  height: 80%;
+  width: auto;
   display: block;
 }
 
