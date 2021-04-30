@@ -140,14 +140,14 @@ nav ul a {
 }
 
 .hleft {
-    width: 50%;
+    width: 40%;
     font-family: 'Montserrat', sans-serif;
     color: rgba(0, 0, 0, 0.6);
     animation: slideInFromLeft 1s ease-in;
 }
 
 .hRight {
-    width: 45%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -286,9 +286,9 @@ nav ul a {
 .mainImage {
     margin: auto;
 
-   
-  height: 80vh;
-  width: 57vh;
+   width: 92.5%;
+  height: 73.6vh;
+  /* width: 57vh; */
   background: linear-gradient(
     -90deg
     , rgb(242, 112, 156) 30.42%, rgb(255, 148, 114) 117.42%);
@@ -305,8 +305,8 @@ nav ul a {
 }
 
 .mainImage iframe {
-    height: 94%;
-    width: 91%;
+    height: 95%;
+    width: 98%;
     display: block;
     margin: auto;
     padding-top: 1rem;
