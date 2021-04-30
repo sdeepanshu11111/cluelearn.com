@@ -398,11 +398,21 @@
     .explore {
         margin-top: 0.6rem;
         display: flex;
-        width: 400px;
+        width: 80%;
         justify-content: flex-start;
         margin: auto;
        
     }
+
+    .button .h {
+        position: absolute;
+        font-size: 1rem;
+        top: 50%;
+        color: white;
+        text-align: center;
+        left: 58%;
+        transform: translate(-50%, -50%);
+    }   
     
 
     
