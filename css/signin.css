@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input {display: block;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: 2px #656565 solid;
+  color: #656565;
+  width: 70%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+90deg
+, #F2709C 30.42%, #FF9472 117.42%);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.main {
+  height: 70%;
+  width: 70%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 4rem; */
+  width: 40%;
+}
+
+.info {
+  /* margin-left: 4rem; */
+  width: 50%;
+
+}
+
+
+.main img {
+  height: 50%;
+  display: block;
+}
+
+.info h1 {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.signIn {
+  width: 70%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  background-color: #57B847;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+ 
+}
+
+.create {
+  width: 70%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  background-color: #656565;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
