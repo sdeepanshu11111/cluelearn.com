@@ -11,31 +11,39 @@ input {display: block;
   margin-bottom: 1rem;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   font-size: 1rem;
   outline: none;
-  border: 2px #656565 solid;
+  /* border: 2px #656565 solid; */
   color: #656565;
   width: 70%;
-  border-radius: 300px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  /* border-radius: 300px; */
 }
 
 input:focus {
-  border: 2px #F2709C solid;
+  border: 1px #F2709C solid;
   color: #F2709C;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(
-90deg
-, #F2709C 30.42%, #FF9472 117.42%);
+  background-color:#de6262;
+  background-image: url("/mask_group_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
 display: flex;
 justify-content: center;
 align-items: center;
+
 
 }
 
@@ -43,7 +51,7 @@ align-items: center;
   height: 70%;
   width: 70%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -76,20 +84,22 @@ align-items: center;
 
 .info h1 {
   margin-bottom: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color: #656565;
 }
 
 .signIn {
   width: 70%;
+  margin-top: 1rem;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-  background-color: #57B847;
+  background-color: #7B83FF;
   outline: none;
   border: none;
   color: white;
   font-weight: 500;
   font-size: 1rem;
-  border-radius: 300px;
+  border-radius: 2px;
  
 }
 
@@ -104,7 +114,7 @@ align-items: center;
   font-weight: 500;
   font-size: 1rem;
   margin-top: 0.5rem;
-  border-radius: 300px;
+  border-radius: 2px;
 }
 
 
