@@ -370,16 +370,31 @@ nav ul a {
 }
 
 
+.scaleZero {
+    transform: scale(0);
+    transition: 1s;
+}
+.scaleNormal {
+
+    transform: scale(1);
+}
 
 .transformRight {
 
     transform: translateX(170%);
+    /* transition: 1s */
+}
+
+
+.transformBottom {
+
+    transform: translateY(100%);
     transition: 1s
 }
 
 .transformNormal {
 
-
+transition: 2s;
     transform: translate(0);
  
 }
