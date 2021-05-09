@@ -82,7 +82,7 @@ if(windowHeight > appSc.top){
   appScreen.classList.add('scaleNormal')
 }
 
-if((windowHeight + 300)  > contactInfo.top){
+if((windowHeight + 350)  > contactInfo.top){
   contact.classList.add('transformNormal')
 }
  
