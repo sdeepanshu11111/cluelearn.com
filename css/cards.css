@@ -2,6 +2,7 @@
     background-color: #f3f3f3;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 4rem;
+    overflow: hidden;
 }
 
 .cards h1 {
@@ -11,7 +12,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: #F2709C;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 
 .cardsFirstRow {

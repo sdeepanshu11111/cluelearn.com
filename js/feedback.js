@@ -1,3 +1,4 @@
+console.log("feedback.js")
 let html = `<img src="done.png" alt="">
 <h1>
     Thank you for your feedback
@@ -75,7 +76,7 @@ function deep() {
         alert("Mobile number not valid");
       }
     } else {
-      alert()
+   
       let mail = email.value.toString();
 
       console.log(mail)
@@ -136,6 +137,6 @@ function deep() {
 
  
   } else {
-    alert("Please fill all info");
+    alert("Please Fill All Information");
   }
 }

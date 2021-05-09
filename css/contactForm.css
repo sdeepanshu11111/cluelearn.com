@@ -14,7 +14,7 @@ input[type=number] {
 }
 
 .contact-card {
- height:550px;
+  border-radius: 10px;
   width: 50%;
   background: linear-gradient(
     90deg
@@ -65,16 +65,18 @@ input[type=number] {
 
 .contactInput input {
   display: block;
-  width: 65%;
+  width: 75%;
   margin: auto;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   outline-color: rgb(242, 112, 156);
   border: none;
-  color: #656565;
+  color: #F2709C;
+  border-radius: 6px !important;
+  font-size: 1.2rem;
 }
 
 /* .contactTextarea textarea{
@@ -85,21 +87,23 @@ input[type=number] {
 } */
 
 .contactTextarea {
-  width: 65%;
+  width: 75%;
   margin: auto;
 }
 .contactTextarea textarea {
   height: 200px;
   width: 100%;
+  font-size: 1.2rem;
+  border-radius: 6px;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  font-size: 1.2rem;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem;
+  font-size: 1.2rem; */
   outline-color: rgb(242, 112, 156);
   border: none;
-  color: #656565;
+  color: #F2709C;
 }
 
 
@@ -108,14 +112,15 @@ input[type=number] {
 }
 
 .contactButton button {
+  background: white !important;
   display: block;
   margin: auto;
-font-size: 1.3rem;
+font-size: 1.2rem !important;
 padding: 0.8rem 2rem;
 box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    border-radius: 4rem;
+    border-radius: 10px !important;
     outline: none;
-    font-weight: 500;
+    font-weight: 500 !important;
     color: #656565;
     border: none;
     transition: 0.8s;
@@ -128,7 +133,6 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 
 
 
-
 .height {
   height: auto !important;
 }
@@ -136,7 +140,7 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 @media screen and (max-width: 500px) {
 
   .contact-card {
-    height:550px;
+    
      width: 90%;
      background: linear-gradient(
        90deg
@@ -157,7 +161,7 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
       border-radius: 4rem;
       outline: none;
       font-weight: 500;
-      color: white;
+     
       border: none;
       transition: 0.8s;
       cursor: pointer;
