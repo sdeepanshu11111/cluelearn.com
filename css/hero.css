@@ -366,13 +366,13 @@ nav ul a {
 .transformLeft {
 
     transform: translateX(-170%);
-    transition: 1s
+    transition: 0.5s;
 }
 
 
 .scaleZero {
     transform: scale(0);
-    transition: 1s;
+    transition: 0.5s;
 }
 .scaleNormal {
 
@@ -380,21 +380,21 @@ nav ul a {
 }
 
 .transformRight {
-
+    transition: 0.5s;
     transform: translateX(170%);
     /* transition: 1s */
 }
 
 
 .transformBottom {
-
+    transition: 0.5s;
     transform: translateY(100%);
-    transition: 1s
+    
 }
 
 .transformNormal {
 
-transition: 2s;
+
     transform: translate(0);
  
 }
